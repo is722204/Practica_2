@@ -1,0 +1,14 @@
+<div class="card individual">
+  <h2>You are adopting to {{v.v.animalname}}, please write your user's ID so we can register
+      you in our database.
+  </h2>
+  <h2>
+      Thanks for adopting!
+  </h2>
+  
+  
+  <form action="/users/own/{{v.v.id}}">
+    <input required type="number" name="ownerVar" placeholder="INGRESE SU ID"></input>
+    <a ><button type="submit" >Adopt</button></a>
+  </form>
+</div>

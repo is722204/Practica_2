@@ -1,0 +1,12 @@
+{{#each data.animalsWithImage}}
+<div class="card">
+  <img src={{image}} alt="">
+  <div class="content">
+    <h2><strong>Name: </strong>{{animalname}}</h2>
+    <span><strong>Especie: </strong> {{speciesname}}</span>
+    <span><strong>Age: </strong>{{animalage}}</span>
+    <span><strong>Color: </strong>{{basecolour}}</span>
+    <a href="/animals/{{id}}?url={{image}}"><button>Details</button></a>
+  </div>
+</div>
+{{/each}}

@@ -63,6 +63,9 @@ app.use((req,res,next)=>{
 
 
 
+app.get("/",(req,res)=>{
+  res.redirect("http://localhost:3000/animals")
+})
 
 
 
